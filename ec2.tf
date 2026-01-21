@@ -1,6 +1,6 @@
 resource "aws_security_group" "tf_rdp_sg" {
   name        = "tf-rdp-sg"
-  description = "Allow RDP from anywhere"
+  description = "Allow RDP from All"
   vpc_id      = aws_vpc.tf_vpc.id
 
   # Inbound RDP
@@ -49,4 +49,5 @@ resource "aws_instance" "tf_ec2" {
     Name = "tf-ec2"
   }
   
+
 }
