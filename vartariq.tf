@@ -1,5 +1,5 @@
 variable "new-port-ssl" {
-  default     = "50000"
+  default     = "10001"
   description = "Only use for custom web server port"
 
 }
