@@ -1,6 +1,6 @@
 resource "aws_security_group" "tf_rdp_sg" {
   name        = "tf-rdp-sg"
-  description = "Allow RDP from All"
+  description = "Allow RDP - Changes been done from local"
   vpc_id      = aws_vpc.tf_vpc.id
 
   # Inbound RDP
